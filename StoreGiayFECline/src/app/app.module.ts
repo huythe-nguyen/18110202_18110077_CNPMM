@@ -1,4 +1,4 @@
-import { TopbarComponent } from './test/topbar/topbar.component';
+import { TopbarComponent } from './main/topbar/topbar.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -22,18 +22,18 @@ import { HttpClientModule } from '@angular/common/http';
 import { RestApiService } from './service/rest-api.service';
 import { DataService } from './service/data.service';
 import { RegisterComponent } from './components/register/register.component';
-import { DetailComponent } from './test/detail/detail.component';
-import { HomeComponent } from './test/home/home.component';
-import { NavbarComponent } from './test/navbar/navbar.component';
-import { FilterBarComponent } from './test/filter-bar/filter-bar.component';
-import { FooterComponent } from './test/footer/footer.component';
-import { CartComponent } from './test/cart/cart.component';
-import { CheckoutComponent } from './test/checkout/checkout.component';
+import { DetailComponent } from './main/detail/detail.component';
+import { HomeComponent } from './main/home/home.component';
+import { NavbarComponent } from './main/navbar/navbar.component';
+import { FilterBarComponent } from './main/filter-bar/filter-bar.component';
+import { FooterComponent } from './main/footer/footer.component';
+import { CartComponent } from './main/cart/cart.component';
+import { CheckoutComponent } from './main/checkout/checkout.component';
 import { SearchProductComponent } from './components/search-product/search-product.component';
 import { FilterPipe } from './shared/filter.pipe';
 import { NgxPaginationModule } from 'ngx-pagination';
 import {SliderModule} from 'primeng/slider';
-import { InformationComponent } from './test/information/information.component';
+import { InformationComponent } from './main/information/information.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -41,14 +41,14 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
-import { ChangePasswordComponent } from './test/information/changePassword/changePassword.component';
-import { ProfileComponent } from './test/information/profile/profile.component';
-import { OrderHistoryComponent } from './test/information/order-history/order-history.component';
+import { ChangePasswordComponent } from './main/information/changePassword/changePassword.component';
+import { ProfileComponent } from './main/information/profile/profile.component';
+import { OrderHistoryComponent } from './main/information/order-history/order-history.component';
 import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
 import { ResetPasswordComponent } from './components/forgot-password/reset-password/reset-password.component';
-import { AboutComponent } from './test/about/about.component';
-import { NewComponent } from './test/New/New.component';
-import { DetailCartComponent } from './test/information/order-history/detail-cart/detail-cart.component';
+import { AboutComponent } from './main/about/about.component';
+import { NewComponent } from './main/New/New.component';
+import { DetailCartComponent } from './main/information/order-history/detail-cart/detail-cart.component';
 
 
 @NgModule({

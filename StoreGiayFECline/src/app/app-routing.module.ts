@@ -1,22 +1,22 @@
-import { NewComponent } from './test/New/New.component';
-import { CheckoutComponent } from './test/checkout/checkout.component';
+import { NewComponent } from './main/New/New.component';
+import { CheckoutComponent } from './main/checkout/checkout.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BodyHomeComponent } from './body-home/body-home.component';
 import { LoginComponent } from './components/login/login.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { RegisterComponent } from './components/register/register.component';
-import { CartComponent } from './test/cart/cart.component';
-import { DetailComponent } from './test/detail/detail.component';
-import { HomeComponent } from './test/home/home.component';
+import { CartComponent } from './main/cart/cart.component';
+import { DetailComponent } from './main/detail/detail.component';
+import { HomeComponent } from './main/home/home.component';
 import { SearchProductComponent } from './components/search-product/search-product.component';
-import { InformationComponent } from './test/information/information.component';
-import { ProfileComponent } from './test/information/profile/profile.component';
-import { ChangePasswordComponent } from './test/information/changePassword/changePassword.component';
-import { OrderHistoryComponent } from './test/information/order-history/order-history.component';
+import { InformationComponent } from './main/information/information.component';
+import { ProfileComponent } from './main/information/profile/profile.component';
+import { ChangePasswordComponent } from './main/information/changePassword/changePassword.component';
+import { OrderHistoryComponent } from './main/information/order-history/order-history.component';
 import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
 import { ResetPasswordComponent } from './components/forgot-password/reset-password/reset-password.component';
-import { AboutComponent } from './test/about/about.component';
+import { AboutComponent } from './main/about/about.component';
 
 const routes: Routes = [
   { path: 'new', component: NewComponent },
